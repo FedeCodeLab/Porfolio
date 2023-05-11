@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes -->
+    <script src="scripts/scrollreveal.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    
+    <script src="https://kit.fontawesome.com/3b50e92fc7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="scripts/jquery-3.6.4.min.js"></script>
+    <!-- Css -->
+    <link rel="shortcut icon" href="imagenes/header-img.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="scripts/build/css/intlTelInput.css">
+    <!-- Titulo -->
+    <title>FedeCodeLab | Porfolio</title>
+</head>
+
+<body class="hidden">
+    
+    <div class="carga" id="carga">
+        <div class="lds-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    
+    <div class="fondo">
+    <main id="inicio">
+
+        <div class="btn-volver-arriba" id="btnVolverArriba">
+            <span class="material-symbols-outlined">expand_less</span>
+        </div>
+
+        <div class="header-movil headline-bottom">
+            <div class="flex">
+                <a href="#inicio" class="logo-movil scroll-inicio" id="btnVolverArriba">FedeCodeLab</a>
+                <a href="#" id="btnMenu"><span class="material-symbols-outlined">menu</span></a>
+            </div>
+            <div class="menu-movil">
+                <ul>
+                    <a href="#about" class="scroll-suave"><li>Sobre mi</li></a>
+                    <a href="#proyectos" class="scroll-proyectos"><li>Proyectos</li></a>
+                    <a href="#educacion" class="scroll-educacion"><li>Educación</li></a>
+                    <a href="#skills" class="scroll-habilidades"><li>Habilidades</li></a>
+                    <a href="#formulario" class="scroll-formulario"><li>Contactame</li></a>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="header headline-fade">
+            <div class="flex">
+                <p class="logo">FedeCodeLab</p>
+                <nav>
+                    <ul>
+                        <a href="#about" class="scroll-suave"><li>Sobre mi</li></a>
+                        <a href="#proyectos" class="scroll-proyectos"><li>Proyectos</li></a>
+                        <a href="#educacion" class="scroll-educacion"><li>Educación</li></a>
+                        <a href="#skills" class="scroll-habilidades"><li>Habilidades</li></a>
+                        <a href="#formulario" class="scroll-formulario"><li>Contactame</li></a>
+                        <a href="https://www.linkedin.com/in/federicoguzmancss/" target="_blank"><i class="fa-brands fa-linkedin-in redes" target="_blank"></i></a>
+                        <a href="https://github.com/FedeCodeLab" target="_blank"><i class="fa-brands fa-github redes"></i></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="fixed-header headline-bottom" id="fixedHeader">
+            <div class="flex">
+                <a href="#inicio" class="logo scroll-inicio">FedeCodeLab</a>
+                <nav>
+                    <ul>
+                        <a href="#about" class="scroll-suave"><li>Sobre mi</li></a>
+                        <a href="#proyectos" class="scroll-proyectos"><li>Proyectos</li></a>
+                        <a href="#educacion" class="scroll-educacion"><li>Educación</li></a>
+                        <a href="#skills" class="scroll-habilidades"><li>Habilidades</li></a>
+                        <a href="#formulario" class="scroll-formulario"><li>Contactame</li></a>
+                        <a href="https://www.linkedin.com/in/federicoguzmancss/" target="_blank"><i class="fa-brands fa-linkedin-in redes"></i></a>
+                        <a href="https://github.com/FedeCodeLab" target="_blank"><i class="fa-brands fa-github redes"></i></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="inicio-section">
+            <div class="contenedor-inicio">
+                
+                <div class="inicio headline-fade">
+                    <h3 class="titulo-small">Bienvenidx a mi Porfolio</h3>
+                    <h1><span  id="texto">Hola! Soy Federico, Programador Web</span>&nbsp;</h1>
+                    <p class="presentacion">Programador y diseñador web de Argentina. Creo webs a medida para ayudar a mis clientes a estar mas conectados. Trabajo con frontend y backend.</p>
+                    <a href="#formulario" class="scroll-formulario"><p class="flex-contactame">CONTACTAR</p></a>
+                </div>
+                
+                <div class="avatar">
+                    <img src="imagenes/header-img.svg" alt="escritorio" class="headline-fade">
+                </div>
+                
+            </div>
+        </div>
+
+
+    </main>
+
+    <section class="about-section">
+        <div class="contenedor">
+            <div class="about headline-fade" id="about">
+                <h2 class="titulo-principal">¿Quieres saber sobre mi?</h2>
+                <div class="separador"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptas quia beatae praesentium vitae non! Aperiam recusandae quibusdam et ipsum quia eveniet, vel necessitatibus nesciunt eaque nemo cumque voluptatem sed, veritatis adipisci voluptates velit quasi quam ducimus odio tempore aut libero vero animi facere. Molestiae eligendi qui aliquid tempore enim aperiam repudiandae aliquam, corrupti delectus iusto eum reiciendis obcaecati doloremque.</p>
+                <h2 class="titulo-sub">Programador Junior</h2>
+                <p>Si quieres ponerte en contacto conmigo escribeme a federicoguzman.css@gmail.com</p>
+            </div>
+        </div>
+        <div class="sombra"></div>
+    </section>
+    </div>
+
+    <section class="proyectos" id="proyectos">
+        <div class="contenedor" >
+            
+            <h2 class="titulo-principal">Proyectos</h2>
+            <div class="separador"></div>
+
+            <div class="flex" id="intersectionObserver">
+        
+                <div class="proyecto">
+                    <div class="contenedor-imagen">
+                        <img src="imagenes/perniciosa.jpg" alt="Proyecto">
+                        <div class="overlay">
+                            <p>Editorial de libros de poesia con su cede en San Luis, Argentina.</p>
+                            <a href="https://perniciosaediciones.com/" target="_blank"><button>Visita la web</button></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="proyecto">
+                    <div class="contenedor-imagen">
+                        <img src="imagenes/porfolio.jpg" alt="Proyecto">
+                        <div class="overlay">
+                            <p>One Page realizada para mi porfolio.</p>
+                            <a href="https://fedecodelab.tech/" target="_blank"><button>Visita la web</button></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <div class="contenedor-imagen">
+                        <img src="imagenes/academia.jpg" alt="Proyecto">
+                        <div class="overlay">
+                            <p>Práctica sobre academia de alemán.</p>
+                            <a href="https://curso-aleman.surge.sh/" target="_blank"><button>Visita la web</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="contenedor-imagen vacio">
+                        <div class="lds-roller centrado"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                        
+                        <div class="overlay">
+                            <p>Próximamente</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="contenedor-imagen vacio">
+                        <div class="lds-roller centrado"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                        
+                        <div class="overlay">
+                            <p>Próximamente</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="contenedor-imagen vacio">
+                        <div class="lds-roller centrado"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                        
+                        <div class="overlay">
+                            <p>Próximamente</p>
+                        </div>
+                    </div>
+                </div>
+
+    
+            </div>
+        </div>
+    </section>
+    
+    <div class="fondo">
+    <section class="educacion" id="educacion">
+        <div class="sombra"></div>
+        <div class="contenedor">
+            <h2 class="titulo-principal">Mis estudios</h2>
+            <div class="separador"></div>
+            <div class="certificados" id="intersectionObserver1">
+
+                <div class="certificado">
+                    <h3 class="titulo">Maquetación de Sitios Web Dinámicos con Javascript y jQuery Desde 0</h3>
+                    <p class="fecha">Septiembre, 2022</p>
+                    <h3 class="subtitulo">Contenido: Javascript y jQuery</h3>
+                    <p class="duracion">Curso de 13 horas</p>
+                    <a href="https://drive.google.com/file/d/18VWPLyk47hUossD2G5QYEAmk3MXWevYk/view?usp=sharing" target="_blank"><button>Certificado</button></a>
+                </div>
+
+                <div class="certificado">
+                    <h3 class="titulo">PHP 8 y MySQL: El Curso Completo, Práctico y Desde 0</h3>
+                    <p class="fecha">1 de Diciembre, 2022</p>
+                    <h3 class="subtitulo">Contenido: PHP, AJAX, MySQL</h3>
+                    <p class="duracion">Curso de 20 horas</p>
+                    <a href="https://drive.google.com/file/d/1AyJOXoCPtVsdTl45IEUSuTNrFLDzyklQ/view?usp=sharing" target="_blank"><button>Certificado</button></a>
+                </div>
+
+                <div class="certificado">
+                    <h3 class="titulo">Certificado de Idioma, Alemán A.1</h3>
+                    <p class="fecha">27 de Febrero, 2022</p>
+                    <h3 class="subtitulo">Universidad Nacional de La Rioja</h3>
+                    <a href="https://drive.google.com/file/d/16OLvsLVzm1rzrFq_ExqLE55vnKrVX8VI/view?usp=sharing" target="_blank"><button>Certificado</button></a>
+                </div>
+
+                <div class="certificado">
+                    <h3 class="titulo">Certificado de Idioma, Alemán A.2</h3>
+                    <p class="fecha">19 de Diciembre, 2022</p>
+                    <h3 class="subtitulo">Universidad Nacional de La Rioja</h3>
+                    <a href="https://drive.google.com/file/d/15WrhyWpuZEm2vUZmKhg8FK_LXM-jQwPr/view?usp=sharing" target="_blank"><button>Certificado</button></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="habilidades-section" id="skills" id="intersectionObserver">
+        
+        <h1 class="titulo-principal">Mis habilidades</h1>
+        <div class="separador headline-left"></div>
+        
+        <div class="contenedor">
+            <div class="habilidades" id="intersectionObserver2">
+                <div class="estudios">
+                    <div class="iconos-habilidades">
+                        <span class="material-symbols-outlined">terminal</span>
+                    </div>
+                    <h3 class="titulo-sub">Desarrollador Frontend y Backend</h3>
+                    <p>Me gusta estar en constante aprendizaje y fortaleciendo lo aprendido previamente.</p>
+                    <h3 class="titulo-pequeño">Lenguajes de Programación que Utilizo</h3>
+
+                    <div class="lenguajes">
+            
+                        <div class="html">
+                            <i class="fa-brands fa-html5"></i>
+                            <p>HTML5</p>
+                        </div>
+        
+                        <div class="css">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <p>CSS</p>
+                        </div>
+                        
+                        <div class="js">
+                            <i class="fa-brands fa-js"></i>
+                            <p>Javascript</p>
+                        </div>
+        
+                        <div class="php">
+                            <i class="fa-brands fa-php"></i>
+                            <p>PHP</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="estudios">
+                    <div class="iconos-habilidades">
+                        <span class="material-symbols-outlined">library_books</span>
+                    </div>
+                    <h3 class="titulo-sub">Frameworks y Librerías</h3>
+                    <p>Las librerías me parecen de las partes mas interesantes sobre la programación web y Javascript.</p>
+                    <h3 class="titulo-pequeño">Librerias que Utilizo Actualmente</h3>
+                    <div class="lenguajes">
+        
+                        <a href="https://jquery.com/" target="_blank">
+                            <div class="jquery">
+                                <div class="icono">
+                                    <img src="imagenes/query.png" alt="Jquery">
+                                </div>
+                                <p>JQuery</p>
+                            </div>
+                        </a>
+        
+                        <a href="https://kenwheeler.github.io/slick/" target="_blank">
+                            <div class="slick">
+                                <div class="icono">
+                                    <img src="imagenes/pre.png" alt="Slick">
+                                </div>
+                                <p>Slick</p>
+                            </div>
+                        </a>
+
+                        <a href="https://scrollrevealjs.org/" target="_blank">
+                            <div class="scroll">
+                                <div class="icono">
+                                    <img src="imagenes/ScrollReveal.png" alt="Scroll Reveal">
+                                </div>
+                                <p>Scroll Reveal</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://getbootstrap.com/" target="_blank">
+                            <div class="bootstrap">
+                                <div class="icono">
+                                    <img src="imagenes/bootstrap.png" alt="Bootstrap">
+                                </div>
+                                <p>Bootstrap</p>
+                            </div>
+                        </a>
+        
+                    </div>
+                </div>
+
+                <div class="estudios">
+                    <div class="iconos-habilidades">
+                        <span class="material-symbols-outlined">wysiwyg</span>
+                    </div>
+                    <h3 class="titulo-sub">Software y Herramientas</h3>
+                    <p>Me gusta complementar mis proyectos webs con conocimientos adquiridos previamente sobre el uso de distintos Softwares.</p>
+                    <h3 class="titulo-pequeño">Softwares que Manejo</h3>
+                    <div class="lenguajes">
+        
+                        <div class="visual">
+                            <div class="icono">
+                                <img src="imagenes/visual-color.png" alt="visual">
+                            </div>
+                            <p>Visual Studio Code</p>
+                        </div>
+        
+                        <div class="photoshop">
+                            <div class="icono">
+                                <img src="imagenes/photoshop.png" alt="photoshop">
+                            </div>
+                                <p>Adobe Photoshop</p>
+                        </div>
+        
+                        <div class="illustrator">
+                            <div class="icono">
+                                <img src="imagenes/illustrator.png" alt="illustrator">
+                            </div>
+                            <p>Adobe Illustrator</p>
+                        </div>
+        
+                        <div class="xampp">
+                            <div class="icono">
+                                <img src="imagenes/xampp.svg" alt="xampp">
+                            </div>
+                            <p>XAMMP</p>
+                        </div>
+        
+                        <div class="heidi">
+                            <div class="icono">
+                                <img src="imagenes/heidiSQL.png" alt="heidi">
+                            </div>
+                            <p>HeidiSQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+
+        </div>
+    </section>
+
+    <section class="formulario" id="formulario" >
+        <div class="contenedor">
+            <div class="form" id="intersectionObserver3">
+
+                <div class="informacion">
+                    <h1>INFORMACIÓN<br>DE CONTACTO</h1>
+                    <p>federicoguzman.css@gmail.com</p>
+                    <a href="www.linkedin.com/in/federicoguzmancss">in/federicoguzmancss</a>
+                </div>
+
+                <div class="contacto" id="formularioValidacion">
+                    <h3>Envia un mensaje</h3>
+
+                    <form action="https://formsubmit.co/federicoguzman.css@gmail.com" method="POST">
+
+                        <div class="form__box">
+                            <input type="text" class="form__input" name="nombre" id="nombre" placeholder=" " maxlength="60" value="">
+                            <label for="nombre" class="form__label">Nombre</label>
+                            <p class="error">Por favor escribe tu nombre</p>
+                        </div>
+
+
+                        <div class="form__box">
+                            <input id="phone" type="tel" class="form__input" name="celular">
+                            <span id="valid-msg" class="hide">✓ Valid</span>
+                            <span id="error-msg" class="hide"></span>
+                        </div>
+
+                        <div class="form__box">
+                            <input type="email" class="form__input" name="email" id="email" placeholder=" " maxlength="100" value="">
+                            <label for="email" class="form__label">Correo</label>
+                            <p class="error">Por favor escribe tu correo</p>
+                        </div>
+
+                        <div class="form__box">
+                            <input type="text" class="form__input" name="asunto" id="asunto" placeholder=" " maxlength="100" value="">
+                            <label for="asunto" class="form__label">Asunto</label>
+                            <p class="error">Por favor escribe tu asunto</p>
+                        </div>
+
+                        <div class="form__box">
+                            <textarea class="form__input" name="mensaje" id="mensaje" placeholder=" " value="" rows="3"></textarea>
+                            <label for="mensaje" class="textarea__label">Mensaje</label>
+                            <p class="error">Por favor escribe tu mensaje</p>
+                        </div>
+
+                        <button type="submit">Enviar Correo</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <footer>
+        <div class="contenedor">
+            <div class="izquierda">
+                <h2>PORFOLIO Footer</h2>
+                <div class="footer-lista">
+                    <ul>
+                        <a href="#about" class="scroll-suave"><li>Sobre mi</li></a>
+                        <a href="#proyectos" class="scroll-proyectos"><li>Proyectos</li></a>
+                        <a href="#educacion" class="scroll-educacion"><li>Educación</li></a>
+                        <a href="#skills" class="scroll-habilidades"><li>Habilidades</li></a>
+                    </ul>
+                    <p>© 2023 Copyright | porfolio.com</p>
+
+                </div>
+            </div>
+            <div class="derecha">
+                <h3 class="footer-titulo activo">Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/federicoguzmancss/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/FedeCodeLab" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+                <h3 class="footer-titulo activo">Contacto</h3>
+                <p>federicoguzman.css@gmail.com</p>
+                <p class="activo">© 2023 Copyright | porfolio.com</p>
+            </div>
+    
+            
+        </div>
+    </footer>
+
+    <script src="scripts/index.js"></script>
+    <script src="scripts/build/js/intlTelInput.js"></script>
+    
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            utilsScript: "scripts/build/js/utils.js"
+        });
+    
+        const errorMsg = document.querySelector("#error-msg");
+        const validMsg = document.querySelector("#valid-msg");
+    
+        // here, the index maps to the error code returned from getValidationError - see readme
+        const errorMap = ["Número invalido", "Código de país invalido", "Muy corto", "Muy largo", "Número invalido"];
+    
+        // initialise plugin
+        const iti = window.intlTelInput(input, {
+        utilsScript: "/intl-tel-input/js/utils.js?1681516311936"
+        });
+    
+        const reset = () => {
+        input.classList.remove("error");
+        errorMsg.innerHTML = "";
+        errorMsg.classList.add("hide");
+        validMsg.classList.add("hide");
+        };
+    
+        // on blur: validate
+        input.addEventListener('blur', () => {
+        reset();
+        if (input.value.trim()) {
+            if (iti.isValidNumber()) {
+            validMsg.classList.remove("hide");
+            } else {
+            input.classList.add("error");
+            const errorCode = iti.getValidationError();
+            errorMsg.innerHTML = errorMap[errorCode];
+            errorMsg.classList.remove("hide");
+            }
+        }
+        });
+    
+        // on keyup / change flag: reset
+        input.addEventListener('change', reset);
+        input.addEventListener('keyup', reset);
+    
+        // on submit: validate phone number
+        const form = document.querySelector('form');
+        form.addEventListener('submit', (event) => {
+            if (!iti.isValidNumber()) {
+                event.preventDefault();
+                input.classList.add("error");
+                const errorCode = iti.getValidationError();
+                errorMsg.innerHTML = errorMap[errorCode];
+                errorMsg.classList.remove("hide");
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
